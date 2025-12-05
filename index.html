@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title -->
+    <title>Virtual Reality</title>
+
+    <!-- For responsive  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- FontAwesome Kit -->
+    <script src="https://kit.fontawesome.com/23d3da6a4a.js" crossorigin="anonymous"></script>
+
+    <!-- Link with CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Home section -->
+    <div class="virtual_reality_banner_section min-vh-100 m-0">
+        <!-- Virtual Reality Navbar section -->
+        <nav class="navbar navbar-expand-lg virtual_reality_navbar_color navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#offcanvasStatic" data-bs-target="#offcanvasStatic"
+                    data-bs-toggle="offcanvas" aria-controls="offcanvasStatic">
+                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-logo-img.png"
+                        class="img-fluid virtual_reality_navbar_image" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active text-white virtual_reality_navbar_links" aria-current="page"
+                            href="#virtualrealitybannersection">Home</a>
+                        <a class="nav-link text-white virtual_reality_navbar_links"
+                            href="#virtualrealityproductssection">Products</a>
+                        <a class="nav-link text-white virtual_reality_navbar_links"
+                            href="#virtualrealitytrendingblogssection">Recent Blogs</a>
+                        <a class="nav-link text-white virtual_reality_navbar_links"
+                            href="#virtualrealityfootersection">Footer Info</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Virtual Reality Banner section -->
+        <div id="virtualrealitybannersection"
+            class="text-center d-flex flex-column justify-content-center align-items-center min-vh-100">
+            <div class="p-4">
+                <h1 class="text-white mb-4 text_georgia fw-bold">The Revolution in Virtual Reality</h1>
+                <button type="button" class="btn btn-dark virtual_reality_banner_button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdropModal">View
+                    More</button>
+            </div>
+        </div>
+
+        <!-- Offcanvas -->
+        <div class="offcanvas offcanvas-start bg-info" data-bs-backdrop="static" tabindex="-1" id="offcanvasStatic"
+            aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLabel">
+                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-logo-img.png"
+                        class="img-fluid virtual_reality_navbar_image" />
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <h1 class="text-white fs-5">Right now this section is not available.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade bg-info" id="staticBackdropModal" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog virtual_reality_modal_dialog">
+            <div class="modal-content virtual_reality_modal_content shadow-lg">
+                <div class="modal-header d-flex flex-row justify-content-between">
+                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-logo-img.png"
+                        class="img-fluid virtual_reality_navbar_image" />
+                    <h1 class="modal-title fs-5 text_georgia d-inline fs-2 fw-bold" id="modalLabel">Virtual Reality</h1>
+                </div>
+                <div class="modal-body">
+                    <h1 class="text-dark fs-5">Right now this section is not available.</h1>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features section -->
+    <div class="virtual_reality_features_section bg-white pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-5">
+                        <h1 class="text-dark fs-1 text_georgia fw-bold">Features</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="text-center mb-4">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/easy-connect-img.png"
+                            class="img-fluid w-50" />
+                        <h1 class="fs-4 mt-3">Easy to connect</h1>
+                        <p class="virtual_reality_features_section_card_para">Instead of viewing a screen in front
+                            of them, users are immersed and
+                            able to interact with 3D worlds.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="text-center mb-4">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-capability-img.png"
+                            class="img-fluid w-50" />
+                        <h1 class="fs-4 mt-3">VR Capability</h1>
+                        <p class="virtual_reality_features_section_card_para">Virtual realty (VR) can create an
+                            environment simllar to or
+                            completely different from the real
+                            world</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="text-center mb-4">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/video-games-img.png"
+                            class="img-fluid w-50" />
+                        <h1 class="fs-4 mt-3">Video games</h1>
+                        <p class="virtual_reality_features_section_card_para">Abilty to recognize hand motion,
+                            evolving interactions and gameplay
+                            in VA</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="text-center mb-4">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/interaction-img.png"
+                            class="img-fluid w-50" />
+                        <h1 class="fs-4 mt-3">Interaction</h1>
+                        <p class="virtual_reality_features_section_card_para">Interaction refers to the <span
+                                class="text-dark fw-bold">natural
+                                Interaction</span> between the user and
+                            the virtual scene.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="text-center mb-4">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/easy-play-img.png"
+                            class="img-fluid w-50" />
+                        <h1 class="fs-4 mt-3">Easy to play</h1>
+                        <p class="virtual_reality_features_section_card_para">In 360-degree video, the locations of
+                            viewers are fixed, viewers are
+                            limited to the angles captured by the
+                            cameras.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="text-center mb-4">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/experience-img.png"
+                            class="img-fluid w-50" />
+                        <h1 class="fs-4 mt-3">Awesome Experience</h1>
+                        <p class="virtual_reality_features_section_card_para">Virtual neality (VR) is a simulated
+                            experience that can be similar to or
+                            completely different from the real
+                            world</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kit section -->
+    <div class="virtual_reality_kit_section bg-light pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-5">
+                        <h1 class="text-dark fs-1 text_georgia fw-bold">Included VR Kit</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="text-center h-100">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-kit-1-img.png"
+                            class="img-fluid w-50 h-75" />
+                        <p class="text-dark fs-6">Two Touch Controllers</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-kit-2-img.png"
+                            class="img-fluid w-50 h-75" />
+                        <p class="text-dark fs-6">Two Touch Controllers</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="text-center h-100">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-kit-3-img.png"
+                            class="img-fluid w-50 h-75" />
+                        <p class="text-dark fs-6">Two Touch Controllers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optics and Controller section -->
+    <div class="virtual_reality_optics_controller bg-white pt-5 pb-5">
+        <div class="container">
+            <div class="row d-flex mb-4">
+                <div class="col-12 col-md-6 order-md-2">
+                    <div>
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-optics-img.png"
+                            class="img-fluid w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-md-1">
+                    <div class="h-100 d-flex flex-column justify-content-center mb-4 align-items-start">
+                        <h1 class="text-dark">Improved Optics</h1>
+                        <p class="para_color">A virtual reality headset is a head-mounted device
+                            that provides virtual reality for the wearer.</p>
+                        <button class="btn btn-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 col-md-6">
+                    <div>
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-controllers-img.png"
+                            class="img-fluid w-100" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="h-100 d-flex flex-column justify-content-center mb-4 align-items-start">
+                        <h1 class="text-dark">Two Touch Controllers</h1>
+                        <p class="para_color">Your Oculus Touch controllers are a pair of tracked
+                            controllers that give you a hand.</p>
+                        <button class="btn btn-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact US section -->
+    <div class="virtual_reality_contact_us_section pt-5 pb-5">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-12 col-md-6 order-md-2 p-4">
+                    <div class="text-center h-100 d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="text-white fs-1 text_georgia fw-bold mb-4">Virtually Anything
+                            is Possible</h1>
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-set-img.png"
+                            class="img-fluid w-50 d-md-none d-block m-auto mb-4 virtual_reality_contact_us_section_image" />
+                        <button type="button" class="btn btn-dark white_border" id="liveToastBtn">Contact Us</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-md-1">
+                    <div
+                        class="d-none d-md-block h-100 text-center d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-set-img.png"
+                            class="img-fluid w-100 virtual_reality_contact_us_section_image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Us Toast -->
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-logo-img.png"
+                        class="rounded me-2 img-fluid virtual_reality_navbar_image" alt="...">
+                    <strong class="me-auto">Virtual Reality</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <h1 class="text-dark fs-6 text_georgia">Email : <span class="text_roboto"><a
+                                href="mailto:vighneshsani01@gmail.com">vighneshsani01@gmail.com</a></span></h1>
+                    <h1 class="text-dark fs-6 text_georgia">Phone no : <span class="text_roboto">8237445797</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trending Blogs Section -->
+    <div class="virtual_reality_trending_blogs_section bg-light pt-5 pb-5" id="virtualrealitytrendingblogssection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-5">
+                        <h1 class="text-dark fs-1 text_georgia fw-bold">Trending Blogs</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="bg-white shadow-lg rounded-3 mb-4">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png"
+                            class="img-fluid w-100" />
+                        <div class="p-4">
+                            <p class="para_color">Amazon</p>
+                            <h1 class="fs-5 text-dark text_roboto">New Way to See the World. It is a
+                                simulated experience that can be
+                                completely different from the real
+                                world.</h1>
+                            <a href="#virtualrealitytrendingblogssection" class="fs-6">READ MORE -></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="bg-white shadow-lg rounded-3 mb-4">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png"
+                            class="img-fluid w-100" />
+                        <div class="p-4">
+                            <p class="para_color">Advertising</p>
+                            <h1 class="fs-5 text-dark text_roboto">The best one for you. Come
+                                experience the wonder of Google
+                                Earth in virtual reality.</h1>
+                            <a href="#virtualrealitytrendingblogssection" class="fs-6">READ MORE -></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="p-2 text-end">
+                        <button class="btn btn-dark text-white">View All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Virtual Reality Products section  -->
+    <div class="virtual_reality_products_section pt-5 pb-5" id="virtualrealityproductssection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-4">
+                        <h1 class="text-dark fs-1 text_georgia fw-bold">Products</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div
+                        class="virtual_reality_product1 w-100 vh-100 d-flex flex-column justify-content-end align-items-start p-4 mb-4">
+                        <h1 class="fs-4 text_roboto text-white">VR Headset</h1>
+                        <p class="text-white">Rs 75,000</p>
+                        <button class="btn btn-dark text-white white_border">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div
+                        class="virtual_reality_product2 w-100 vh-100 d-flex flex-column justify-content-end align-items-start p-4 mb-4">
+                        <h1 class="fs-4 text_roboto text-white">VR Headset and
+                            Two Touch
+                            Controllers</h1>
+                        <p class="text-white">Rs 90,000</p>
+                        <button class="btn btn-dark text-white white_border">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="p-3 text-end">
+                        <button class="btn btn-dark">View All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Virtual Reality Footer section -->
+    <div class="virtual_reality_footer_section pt-5 pb-5 bg-dark" id="virtualrealityfootersection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="text-center text-md-start">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-logo-img.png"
+                            class="rounded me-2 img-fluid virtual_reality_navbar_image" alt="...">
+                        <div class="mt-3">
+                            <a href="#">
+                                <i class="fa-brands fa-google vr_footer_icons"></i>
+                            </a>
+                            <a href="https://x.com/vighneshSani">
+                                <i class="fa-brands fa-twitter vr_footer_icons"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram vr_footer_icons"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/vighnesh-sani/">
+                                <i class="fa-brands fa-linkedin vr_footer_icons"></i>
+                            </a>
+                        </div>
+                        <p class="para_color text_roboto mt-2">37, Ayur Vigyan Nagar, New
+                            Delhi, India.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="mt-3 mt-md-0">
+                        <h1 class="para_color fs-5 fw-bold text_roboto mb-3">Contact Us</h1>
+                        <h1 class="para_color fs-6 text_georgia mb-3">Email : <span class="text_roboto"><a
+                                    href="mailto:vighneshsani01@gmail.com">vighneshsani01@gmail.com</a></span></h1>
+                        <h1 class="para_color fs-6 text_georgia mb-3">Phone no : <span
+                                class="text_roboto">8237445797</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="mt-3 mt-md-0">
+                        <h1 class="para_color fs-5 fw-bold text_roboto mb-3">Let Us Help You</h1>
+                        <h1 class="para_color fs-6 text_georgia mb-3">100% Purchase Protection</h1>
+                        <h1 class="para_color fs-6 text_georgia mb-3">Your Account Return Centre</h1>
+                        <h1 class="para_color fs-6 text_georgia mb-3">Help</h1>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="w-100 text-center">
+                        <hr class="white_border" />
+                        <h1 class="para_color fs-6 text_georgia mb-3">@2025 vighnesh Sani created with Sunrise Avenue
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Contact us Toast JS section-->
+    <script>
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+
+        if (toastTrigger) {
+            const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+            toastTrigger.addEventListener('click', () => {
+                toastBootstrap.show()
+            })
+        }
+    </script>
+</body>
+
+</html>

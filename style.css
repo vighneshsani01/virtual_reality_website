@@ -1,0 +1,114 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+h1,
+p,
+button {
+    overflow-wrap: anywhere;
+}
+
+.virtual_reality_banner_section {
+    background-image: url('https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100vw;
+}
+
+.virtual_reality_navbar_image {
+    width: 50px;
+    height: 50px;
+}
+
+.virtual_reality_navbar_image:hover {
+    transform: scale(1.10);
+    transition: 0.5s;
+}
+
+.text_georgia {
+    font-family: "Georgia";
+}
+
+.virtual_reality_navbar_links:hover {
+    transform: scale(1.10);
+    transition: 0.5s;
+    filter: brightness(1.20);
+}
+
+.virtual_reality_banner_button:hover {
+    transform: scale(1.10);
+    transition: 0.5s;
+    background-color: blue !important;
+    color: white !important;
+    box-shadow: 2px 2px 8px black;
+    border-width: 0px !important;
+}
+
+@media (max-width: 576px) {
+    .virtual_reality_modal_dialog {
+        margin: 0px !important;
+    }
+
+    .virtual_reality_modal_content {
+        min-height: 100vh;
+        border-radius: 0px !important;
+        border-width: 0px !important;
+    }
+}
+
+.virtual_reality_features_section_card_para {
+    color: #7b8794;
+}
+
+.virtual_reality_navbar_color {
+    background-color: hsla(221, 100%, 40%, 0.352);
+}
+
+.para_color {
+    color: #7b8794;
+}
+
+.virtual_reality_contact_us_section {
+    background-color: #222b36;
+}
+
+.white_border {
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: white !important;
+}
+
+.virtual_reality_contact_us_section_image:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.text_roboto {
+    font-family: "Roboto";
+}
+
+.virtual_reality_product1 {
+    background-image: url('https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.virtual_reality_product2 {
+    background-image: url('https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vr_footer_icons {
+    font-size: 15px;
+    color: black;
+    background-color: #202b36;
+    color: #5a7184;
+    padding: 20px;
+    border-radius: 60px;
+    margin: 5px;
+}
